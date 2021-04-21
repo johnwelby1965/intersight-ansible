@@ -11,7 +11,8 @@
 #
 # - hosts: "{{ group | default('Intersight') }}"
 # - hosts: "{{ group | default('https://intersight.com') }}"
- - hosts: "{{ group | default('localhost') }}"
+# - hosts: "{{ group | default('localhost') }}"
+ - hosts: localhost
   connection: local
   gather_facts: false
   vars:
