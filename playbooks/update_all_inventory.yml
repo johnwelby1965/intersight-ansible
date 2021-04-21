@@ -12,7 +12,7 @@
 # - hosts: "{{ group | default('Intersight') }}"
 # - hosts: "{{ group | default('https://intersight.com') }}"
 # - hosts: "{{ group | default('localhost') }}"
- - hosts: localhost
+ - hosts: "{{ group | default('Intersight_Servers') }}"
   connection: local
   gather_facts: false
   vars:
