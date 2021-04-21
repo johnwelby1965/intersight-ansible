@@ -10,7 +10,8 @@
 # This playbook only runs once (and not for each server in the inventory), but the hosts group is used to get API key info
 #
 # - hosts: "{{ group | default('Intersight') }}"
- - hosts: "{{ group | default('https://intersight.com') }}"
+# - hosts: "{{ group | default('https://intersight.com') }}"
+ - hosts: "{{ group | default('localhost') }}"
   connection: local
   gather_facts: false
   vars:
