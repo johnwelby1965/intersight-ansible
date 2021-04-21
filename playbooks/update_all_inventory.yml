@@ -13,7 +13,7 @@
 # - hosts: "{{ group | default('https://intersight.com') }}"
 # - hosts: "{{ group | default('localhost') }}"
  - hosts: "{{ group | default('Intersight_Servers') }}"
-# connection: local
+  connection: local
   gather_facts: false
   vars:
     # Create an anchor for api_info that can be used throughout the file
