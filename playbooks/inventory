@@ -4,14 +4,18 @@ validate_certs=false
 
 [Intersight_HX]
 # Note: at least one host (e.g., sjc07-r13-501) must be present for update_*_inventory.yml to work
-
-
-[Intersight_Servers]
 HXUCS-1
 HXUCS-2
 HXUCS-3
 HXUCS-4
 HXUCS-5
+
+[Intersight_Servers]
+# HXUCS-1
+# HXUCS-2
+# HXUCS-3
+# HXUCS-4
+# HXUCS-5
 
 [Intersight:children]
 Intersight_HX
