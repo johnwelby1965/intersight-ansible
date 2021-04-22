@@ -13,7 +13,7 @@ sjc08-r14-601
 [Intersight:children]
 Intersight_HX
 Intersight_Servers
-https://www.intersight.com
+
 
 [all:vars]
 api_private_key=~/Desktop/SecretKey.txt
