@@ -8,11 +8,11 @@ sjc07-r13-501
 sjc08-r13-503
 
 [Intersight_Servers]
-
+52.85.144.3
 
 [Intersight:children]
 Intersight_HX
-# Intersight_Servers
+Intersight_Servers
 
 
 
