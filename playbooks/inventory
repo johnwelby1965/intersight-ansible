@@ -13,7 +13,7 @@ sjc08-r13-503
 [Intersight:children]
 Intersight_HX
 # Intersight_Servers
-Intersight_Servers https://www.intersight.com
+
 
 
 [all:vars]
