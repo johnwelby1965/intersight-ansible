@@ -17,5 +17,5 @@ Intersight_Servers
 
 
 [all:vars]
-api_private_key=/home/jwelby/.ansible/SecretKey.pem
+api_private_key=/home/jwelby/.ansible/SecretKey
 api_key_id=600af47a7564612d333a694e/600af47a7564612d333a6952/6080220f7564612d326742d9
