@@ -1,6 +1,6 @@
 # api_uri=https://600af47a7564612d333a694e.intersight.com/
 # api_uri=https://intersight.com
-# validate_certs=false
+validate_certs=false
 
 [Intersight_HX]
 # Note: at least one host (e.g., sjc07-r13-501) must be present for update_*_inventory.yml to work
