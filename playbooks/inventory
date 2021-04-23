@@ -1,4 +1,4 @@
-api_uri=https://600af47a7564612d333a694e.intersight.com/
+# api_uri=https://600af47a7564612d333a694e.intersight.com/
 # api_uri=https://intersight.com
 validate_certs=false
 
