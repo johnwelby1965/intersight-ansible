@@ -10,7 +10,7 @@
 # This playbook only runs once (and not for each server in the inventory), but the hosts group is used to get API key info
 #
  hosts: "{{ group | default('Intersight') }}"
-  connection: ansible_host
+  connection: local
   gather_facts: false
   vars:
     # Create an anchor for api_info that can be used throughout the file
