@@ -3,7 +3,7 @@ validate_certs=false
 
 [Intersight_HX]
 # Note: at least one host (e.g., sjc07-r13-501) must be present for update_*_inventory.yml to work
-sjc08-r13-503
+redhat.cisco_alliance.hx_cluster.com
 
 [Intersight_Servers]
 
@@ -15,5 +15,5 @@ Intersight_Servers
 
 
 [Intersight:vars]
-api_private_key=/home/jwelby/.ansible/SecretKey
+api_private_key=~/home/jwelby/.ansible/SecretKey
 api_key_id=600af47a7564612d333a694e/600af47a7564612d333a6952/6080220f7564612d326742d9
