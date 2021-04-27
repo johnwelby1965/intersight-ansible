@@ -13,6 +13,10 @@
 - hosts: intersight.com
   connection: local
   gather_facts: false
+  
+  vars_files:
+    - api_info.yml
+    
   vars:
     # Create an anchor for api_info that can be used throughout the file
     api_info: &api_info
